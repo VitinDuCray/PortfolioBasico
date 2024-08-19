@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --color-white: #3bff65;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(111, 255, 131);
+    background: url('assets/wpp.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 45px;
+    color: var(--color-white);
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 30px;
+}
+
+.line {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.bd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 700px;
+    width: auto;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter:  blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: var(--color-white);
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    color: var(--color-white);
+    font-size: 28px;
+    text-align: center;
+    margin: -10px;
+}
+
+.photo {
+    display: flex;
+    width: 426px;
+    height: 240px;
+}
+
+.wrapper p {
+    text-align: center;
+}
+
+a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--color-white);
+    font-size: 28px;
+    text-align: center;
+    padding-top: 15px;
+}
